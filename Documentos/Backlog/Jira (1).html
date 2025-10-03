@@ -1,0 +1,547 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\,";
+    mso-displayed-thousand-separator:"\.";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="11">
+            <img src="https://santiago-chaparro-riano.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="11">
+            <a href="https://santiago-chaparro-riano.atlassian.net/issues/?jql=project+%3D+%22KAN%22+ORDER+BY+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="11">
+            Mostrando <strong>14</strong> incidencias como en <strong>03/oct/25 6:24 AM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Tipo de Incidencia
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Clave
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Resumen
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Persona asignada
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Informador
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Prioridad
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Estado
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolución
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Creada
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Actualizada
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Fecha de vencimiento
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10016" rel="10016" data-issuekey="KAN-14" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-14" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-14">KAN-14</a>
+</td>
+                                            <td class="summary"><p>
+                Proyecto movil Terminado
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 02/oct/25 11:40 AM </td>
+                                            <td class="updated"> 02/oct/25 11:40 AM </td>
+                                            <td class="duedate">    02/oct/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10015" rel="10015" data-issuekey="KAN-13" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-13" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-13">KAN-13</a>
+</td>
+                                            <td class="summary"><p>
+                Pruebas Movil
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;En revisión&lt;/span&gt;">En revisión</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 02/oct/25 11:38 AM </td>
+                                            <td class="updated"> 02/oct/25 11:49 AM </td>
+                                            <td class="duedate">    15/oct/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10014" rel="10014" data-issuekey="KAN-12" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-12" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-12">KAN-12</a>
+</td>
+                                            <td class="summary"><p>
+                Generar APK Movil
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;En revisión&lt;/span&gt;">En revisión</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 02/oct/25 11:37 AM </td>
+                                            <td class="updated"> 02/oct/25 11:49 AM </td>
+                                            <td class="duedate">    25/oct/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10013" rel="10013" data-issuekey="KAN-11" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-11" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-11">KAN-11</a>
+</td>
+                                            <td class="summary"><p>
+                Crear Ajustes estableciendo su alcance a futuro y actualizar contraseña
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:35 AM </td>
+                                            <td class="updated"> 02/oct/25 11:37 AM </td>
+                                            <td class="duedate">    05/oct/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10012" rel="10012" data-issuekey="KAN-10" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-10" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-10">KAN-10</a>
+</td>
+                                            <td class="summary"><p>
+                Crear Idea de negocio (Agenda) con su servicio respectivo 
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:34 AM </td>
+                                            <td class="updated"> 02/oct/25 11:34 AM </td>
+                                            <td class="duedate">    27/sep/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10011" rel="10011" data-issuekey="KAN-9" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-9" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-9">KAN-9</a>
+</td>
+                                            <td class="summary"><p>
+                Crear Editar_Perfil conectado con su servicio Respectivo 
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:30 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    23/sep/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10010" rel="10010" data-issuekey="KAN-8" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-8" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-8">KAN-8</a>
+</td>
+                                            <td class="summary"><p>
+                Crear Perfil_Usuario e integrar con el servicio  respectivo
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:29 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    20/sep/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10009" rel="10009" data-issuekey="KAN-7" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-7" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-7">KAN-7</a>
+</td>
+                                            <td class="summary"><p>
+                Crear Servicios para User, Person, RolUser y Agenda
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:26 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    18/sep/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10008" rel="10008" data-issuekey="KAN-6" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-6" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-6">KAN-6</a>
+</td>
+                                            <td class="summary"><p>
+                Conexión con API y Base de Datos 
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:24 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    14/sep/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10007" rel="10007" data-issuekey="KAN-5" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-5" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-5">KAN-5</a>
+</td>
+                                            <td class="summary"><p>
+                Desarrollo de Login con respectivo servicio
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:23 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    09/sep/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10006" rel="10006" data-issuekey="KAN-4" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-4" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-4">KAN-4</a>
+</td>
+                                            <td class="summary"><p>
+                Desarrollo de Componentes Genéricos Statusbar, Header, Narvar 
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:21 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    04/sep/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10005" rel="10005" data-issuekey="KAN-3" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-3" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-3">KAN-3</a>
+</td>
+                                            <td class="summary"><p>
+                Desarrollo de Interfaces y componentes de navegación 
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:20 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    29/ago/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10004" rel="10004" data-issuekey="KAN-2" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-2" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-2">KAN-2</a>
+</td>
+                                            <td class="summary"><p>
+                Desarrollo Interfaces de Inicio
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:17 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    22/ago/25
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10003" rel="10003" data-issuekey="KAN-1" class="issuerow">
+                                            <td class="issuetype">    Tarea
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="KAN-1" href="https://santiago-chaparro-riano.atlassian.net/browse/KAN-1">KAN-1</a>
+</td>
+                                            <td class="summary"><p>
+                Desarrollo Inicio de proyecto React-Native con Expo
+    </p>
+</td>
+                                            <td class="assignee">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="reporter">            Santiago Chaparro Riaño
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 02/oct/25 11:15 AM </td>
+                                            <td class="updated"> 02/oct/25 11:31 AM </td>
+                                            <td class="duedate">    15/ago/25
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="11"><font size="1">
+        Generado a las Fri Oct 03 11:24:03 UTC 2025 por Santiago Chaparro Riaño usando JIRA 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
